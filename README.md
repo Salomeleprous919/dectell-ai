@@ -63,58 +63,6 @@
 
 ---
 
-## Project Structure
-
-```
-dectell-ai/
-├── app.py                        <- Entry point
-├── requirements.txt
-├── README.md
-├── .gitignore
-├── .streamlit/
-│   ├── config.toml               <- Theme config (committed)
-│   └── secrets.toml              <- NOT committed — add your keys here locally
-├── assets/
-│   ├── logo.png
-│   ├── favicon.png
-│   └── vivek_photo.jpg           <- Add your photo manually
-├── pages/
-│   ├── Home.py
-│   ├── About.py
-│   ├── Contact.py
-│   ├── Upload.py
-│   ├── EDA.py
-│   ├── AIAnalyze.py
-│   ├── Simulation.py
-│   ├── Causal.py
-│   ├── Chat.py
-│   ├── Report.py
-│   ├── Dashboard.py
-│   └── Developer.py
-├── modules/
-│   ├── data_cleaning.py
-│   ├── eda_analysis.py
-│   ├── causal_analysis.py
-│   └── report_generator.py
-├── utils/
-│   ├── data_utils.py
-│   ├── model_utils.py
-│   ├── llm_utils.py
-│   ├── visualization_utils.py
-│   ├── chat_utils.py
-│   └── ui_utils.py
-└── sample_datasets/
-    ├── retail_sales.csv
-    ├── customer_churn.csv
-    ├── marketing_campaign.csv
-    ├── ecommerce_transactions.csv
-    ├── hr_analytics.csv
-    ├── financial_timeseries.csv
-    └── healthcare_patients.csv
-```
-
----
-
 ## Local Setup
 
 ### 1. Clone the repository
